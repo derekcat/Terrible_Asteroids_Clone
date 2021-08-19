@@ -107,7 +107,7 @@ class Ship(pygame.sprite.Sprite):
 
 		# Shooting:
 		if self.pressedkeys[pygame.K_SPACE] and self.dead == 0:
-			print "Space has been pressed"
+			print("Space has been pressed")
 			shell = Shot(self.angle, self.pos)
 			shots.add(shell)
 			all_sprite.add(shell)
@@ -131,12 +131,12 @@ class Ship(pygame.sprite.Sprite):
 		
 	
 #		print "math.sin(self.angle * GRAD): ", math.sin(self.angle * GRAD) + self.movementx
-		print "-math.sin(self.angle * GRAD): ", - (math.sin(self.angle * GRAD) + self.movementx) + 1
-		print "angle: ", self.angle #test code
-		print "accelx: ", self.accelx
-		print "accely: ", self.accely
-		print "movementx: ", self.movementx
-		print "movementy: ", self.movementy
+		print("-math.sin(self.angle * GRAD): ", - (math.sin(self.angle * GRAD) + self.movementx) + 1)
+		print("angle: ", self.angle) #test code
+		print("accelx: ", self.accelx)
+		print("accely: ", self.accely)
+		print("movementx: ", self.movementx)
+		print("movementy: ", self.movementy)
 #		print "rect.x: ", self.rect.x
 #		print "rect.y: ", self.rect.y
 	

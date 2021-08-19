@@ -107,7 +107,7 @@ while done == False:
 	
 	for hit in asteroid_ship_hit:
 		ship.explode(particles, screen, all_sprite)
-		print "We been hit!"
+		print("We been hit!")
 		Ship.remove(ship)
 		lives -= 1
 		if lives > 0:
